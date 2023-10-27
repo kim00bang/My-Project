@@ -22,8 +22,18 @@
 	cursor: pointer;
 	font-size: 1.4rem;
 	line-height: 1.7rem;
+	
 }
 
 .nav-link {
 	text-align: center;
+}
+
+.input-group {
+	padding: 10px 10px 10px 10px;
+}
+
+.nav_menu{
+	text-decoration-line: none;
+	color: black;
 }
