@@ -2,18 +2,18 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-const Modal_NewJeans = ({box,setBox}) => {
-    const handleClose = () => setBox({...box,show:false});
+const Modal_Day6 = ({box2,setBox2}) => {
+    const handleClose = () => setBox2({...box2,show:false});
 
     return (
         <>
             <Modal
-                show={box.show}
+                show={box2.show}
                 onHide={handleClose}
                 backdrop="static"
                 keyboard={false}>
                 <Modal.Header closeButton>
-                <Modal.Title>NewJeans</Modal.Title>
+                <Modal.Title>DAY6</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                 
@@ -28,4 +28,4 @@ const Modal_NewJeans = ({box,setBox}) => {
     )
 }
 
-export default Modal_NewJeans
+export default Modal_Day6
