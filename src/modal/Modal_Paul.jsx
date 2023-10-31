@@ -16,7 +16,7 @@ const Modal_Paul = ({box7,setBox7}) => {
                 <Modal.Title>폴킴</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img className='mb-3' src="/img/폴킴.jpg" width={400} height={300}/>    
+                    <img className='mb-3' src="/img/paul.jpg" width={400} height={300}/>    
                     <h5>대표 곡 : 초록빛</h5>
                     <h5>대표 앨범 : 초록빛</h5>
                     <h5>소속사 : 와이예스 엔터테인먼트</h5>

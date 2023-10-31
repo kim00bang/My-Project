@@ -9,10 +9,10 @@ function App() {
 		<div className="App">
             <Container>
                 <Row>
-                    <Col xs={2}>
+                    <Col lg={2}>
                         <NavLink className="black" to="/">홈페이지</NavLink>
                     </Col>
-                    <Col xs={8}>
+                    <Col md={8} lg={8}>
                         <InputGroup className='justify-content-center'>
                             <input className='search' type="search" placeholder='검색어를 입력해주세요.' />
                             <Button className='btn-search' variant='success'>검색</Button>

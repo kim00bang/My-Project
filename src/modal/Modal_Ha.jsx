@@ -16,7 +16,7 @@ const Modal_Ha = ({box4,setBox4}) => {
                 <Modal.Title>하현상</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img className='mb-3' src="/img/하현상.jpg" width={400} height={300}/>
+                    <img className='mb-3' src="/img/ha.jpg" width={400} height={300}/>
                     <h5>대표 곡 : 불꽃놀이</h5>
                     <h5>대표 앨범 : 불꽃놀이</h5>
                     <h5>소속사 : WAKEONE</h5>

@@ -27,7 +27,7 @@ const Home = () => {
                 <Row>
                     <Col sm={8} >
                         <Card>
-                            <Card.Header>My</Card.Header>
+                            <Card.Header>My Favorite Artist</Card.Header>
                             <Card.Body>
                                 <Card border='white'>
                                     <Row>
@@ -41,7 +41,7 @@ const Home = () => {
                                         <Col>
                                             <Card>
                                                 <Card.Header><a className='black' href='http://shofar-ent.com/html/dh/artist_view?cate_no=1-20'>최유리</a></Card.Header>
-                                                <Card.Img onClick={() => setBox1({ show: true })} src="/img/최유리.jpg" width={155} height={155} />
+                                                <Card.Img onClick={() => setBox1({ show: true })} src="/img/choi.jpg" width={155} height={155} />
                                                 <Modal_Choi box1={box1} setBox1={setBox1} />
                                             </Card>
                                         </Col>
@@ -64,7 +64,7 @@ const Home = () => {
                                         <Col>
                                             <Card>
                                                 <Card.Header><a className='black' href='https://wake-one.com/artists/ha-hyungsang-2/'>하현상</a></Card.Header>
-                                                <Card.Img onClick={() => setBox4({ show: true })} src="/img/하현상.jpg" width={155} height={155} />
+                                                <Card.Img onClick={() => setBox4({ show: true })} src="/img/ha.jpg" width={155} height={155} />
                                                 <Modal_Ha box4={box4} setBox4={setBox4} />
                                             </Card>
                                         </Col>
@@ -85,7 +85,7 @@ const Home = () => {
                                         <Col>
                                             <Card>
                                                 <Card.Header><a className='black' href='https://www.instagram.com/paulkim.official/'>폴킴</a></Card.Header>
-                                                <Card.Img onClick={() => setBox7({ show: true })} src="/img/폴킴.jpg" width={155} height={155} />
+                                                <Card.Img onClick={() => setBox7({ show: true })} src="/img/paul.jpg" width={155} height={155} />
                                                 <Modal_Paul box7={box7} setBox7={setBox7} />
                                             </Card>
                                         </Col>

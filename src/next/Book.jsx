@@ -81,7 +81,7 @@ const Book = () => {
         if(chcnt===0){
             alert("저장할 도서를 선택하세요");
         }else{
-            if(window.confirm(`${chcnt}권 도서를 저장하실래요?`)){
+            if(window.confirm(`${chcnt}권 도서를 저장하시겠습니까?`)){
                 let count=0;
                 for(const book of books){
                     if(book.checked){
@@ -100,7 +100,7 @@ const Book = () => {
         <div>
             <h1 className='my-5'>도서 검색</h1>
             <Row>
-                <Col className='mt-3 mb-3'>검색수 : {total}권</Col>
+                <Col className='mt-3 mb-3 text-end'>검색수 : {total}권</Col>
                 <Col>
                     <Col className='text-end'></Col>
                 </Col>
@@ -108,12 +108,12 @@ const Book = () => {
                     <form onSubmit={onSubmit} >
                         <InputGroup>
                             <Form.Control value={query} onChange={(e) => setQuery(e.target.value)} />
-                            <Button type='submit' variant='dark'>검색</Button>
+                            <Button type='submit' variant='success'>검색</Button>
                         </InputGroup>
                     </form>
                 </Col>
             </Row>
-            <Table hover striped bordered variant='success'>
+            <Table hover striped bordered variant='success' >
                 <thead>
                     <tr className='text-center'>
                         <th>이미지</th>
