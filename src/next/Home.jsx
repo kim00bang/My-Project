@@ -23,7 +23,7 @@ const Home = () => {
     const [box7, setBox7] = useState({show: false});
     return (
         <div>
-            <Container>
+            <Container className='mb-2'>
                 <Row>
                     <Col sm={8} >
                         <Card>

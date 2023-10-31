@@ -16,7 +16,12 @@ const Modal_Ha = ({box4,setBox4}) => {
                 <Modal.Title>하현상</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                
+                    <img className='mb-3' src="/img/하현상.jpg" width={400} height={300}/>
+                    <h5>대표 곡 : 불꽃놀이</h5>
+                    <h5>대표 앨범 : 불꽃놀이</h5>
+                    <h5>소속사 : WAKEONE</h5>
+                    <h5>영상 :</h5>
+                    <iframe className='mt-3' width={400} height={200} src='https://www.youtube.com/embed/yl0HP_OeUF4?si=q2d-1nUw7i8px4-L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen'/>
                 </Modal.Body>
                 <Modal.Footer>
                 <Button variant="success" onClick={handleClose}>
