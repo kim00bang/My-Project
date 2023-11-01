@@ -1,5 +1,5 @@
 import './App.css';
-import { Container, InputGroup, Nav, Navbar, Button, Row, Col } from 'react-bootstrap';
+import { Container, InputGroup, Nav, Navbar, Button, Row, Col, Form } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import RouterPage from "./next/RouterPage";
 
@@ -12,15 +12,15 @@ function App() {
                     <Col lg={2}>
                         <NavLink className="black" to="/">홈페이지</NavLink>
                     </Col>
-                    <Col md={8} lg={8}>
+                    <Col lg={8}>
                         <InputGroup className='justify-content-center'>
-                            <input className='search' type="search" placeholder='검색어를 입력해주세요.' />
+                            <Form.Control className='search' type='search'/>
                             <Button className='btn-search' variant='success'>검색</Button>
                         </InputGroup>
                     </Col>
                     <Col>
                         <NavLink>
-                            <img src="/img/Instagram_logo.jpg" width={50}/>
+                            <img className='mt-3' src="/img/Instagram_logo.jpg" width="30%"/>
                         </NavLink>
                     </Col>
                 </Row>

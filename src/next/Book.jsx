@@ -128,7 +128,7 @@ const Book = () => {
                 <tbody className='text-center'>
                     {books.map(book =>
                         <tr key={book.isbn}>
-                            <img src={book.thumbnail || "http://via.placeholder.com/100x100"} width="100%" />
+                            <td><img src={book.thumbnail || "http://via.placeholder.com/100x100"} width="50%" /></td>
                             <td>{book.title}</td>
                             <td>{book.price}</td>
                             <td>{book.authors}</td>

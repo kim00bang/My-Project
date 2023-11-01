@@ -9,6 +9,7 @@ import Modal_Ha from '../modal/Modal_Ha';
 import Modal_10cm from '../modal/Modal_10cm';
 import Modal_Akmu from '../modal/Modal_Akmu';
 import Modal_Paul from '../modal/Modal_Paul';
+import HomeBook from './HomeBook';
 
 
 
@@ -115,51 +116,7 @@ const Home = () => {
                             <Row className='mt-2'>
                                 <Col>
                                     <Card>
-                                        <Card.Img src='https://via.placeholder.com/100x100' width={100} height={100} />
-                                    </Card>
-                                </Col>
-                                <Col>
-                                    <Card>
-                                        <Card.Img src='https://via.placeholder.com/100x100' width={100} height={100} />
-                                    </Card>
-                                </Col>
-                                <Col>
-                                    <Card>
-                                        <Card.Img src='https://via.placeholder.com/100x100' width={100} height={100} />
-                                    </Card>
-                                </Col>
-                            </Row>
-                            <Row className='mt-2'>
-                                <Col>
-                                    <Card>
-                                        <Card.Img src='https://via.placeholder.com/100x100' width={100} height={100} />
-                                    </Card>
-                                </Col>
-                                <Col>
-                                    <Card>
-                                        <Card.Img src='https://via.placeholder.com/100x100' width={100} height={100} />
-                                    </Card>
-                                </Col>
-                                <Col>
-                                    <Card>
-                                        <Card.Img src='https://via.placeholder.com/100x100' width={100} height={100} />
-                                    </Card>
-                                </Col>
-                            </Row>
-                            <Row className='mt-2'>
-                                <Col>
-                                    <Card>
-                                        <Card.Img src='https://via.placeholder.com/100x100' width={100} height={100} />
-                                    </Card>
-                                </Col>
-                                <Col>
-                                    <Card>
-                                        <Card.Img src='https://via.placeholder.com/100x100' width={100} height={100} />
-                                    </Card>
-                                </Col>
-                                <Col>
-                                    <Card>
-                                        <Card.Img src='https://via.placeholder.com/100x100' width={100} height={100} />
+                                        <HomeBook/>
                                     </Card>
                                 </Col>
                             </Row>
