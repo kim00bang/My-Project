@@ -8,7 +8,7 @@ const Local = () => {
     const location = useLocation();
     const search = new URLSearchParams(location.search);
     const navi = useNavigate();
-    let page = parseInt(search.get("page"));
+    let page = useState(search.get("page")) ? parseInt(search.get("page")) :1;
     
     const [locals, setLocals] = useState([]);
     const [loading, setLoading] = useState(false);

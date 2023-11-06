@@ -10,12 +10,12 @@ function App() {
             <Container>
                 <Row>
                     <Col lg={2}>
-                        <NavLink className="black" to="/">홈페이지</NavLink>
+                        <NavLink className="homepage" to="/">홈페이지</NavLink>
                     </Col>
                     <Col lg={8}>
                         <InputGroup className='justify-content-center'>
-                            <Form.Control className='search' type='search'/>
-                            <Button className='btn-search' variant='success'>검색</Button>
+                            <Form.Control className='search' placeholder='검색어를 입력해주세요.'/>
+                            <Button className='btn-search'>검색</Button>
                         </InputGroup>
                     </Col>
                     <Col>
@@ -32,7 +32,7 @@ function App() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto nav-link">
                             <NavLink className="nav_menu" to="/book">도서</NavLink>
-                            <NavLink className="nav_menu mx-5" to="/local">지도</NavLink>
+                            <NavLink className="nav_menu mx-5" to="/local?page=1&query=카카오프렌즈">지도</NavLink>
                             <NavLink className="nav_menu" to="/music">노래</NavLink>
                         </Nav>
                     </Navbar.Collapse>

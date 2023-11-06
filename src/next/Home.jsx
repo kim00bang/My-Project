@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Container, Nav, Row, Col, Button, Card } from 'react-bootstrap';
 import './Home.css';
+import { NavLink } from 'react-router-dom';
 import Modal_NewJeans from '../modal/Modal_NewJeans';
 import Modal_Choi from '../modal/Modal_Choi';
 import Modal_Day6 from '../modal/Modal_Day6';
@@ -98,7 +99,7 @@ const Home = () => {
                     <Col sm={4}>
                         <Card>
                             <Card.Body>로그인 하시면 또 다른 세상이 펼쳐집니다.</Card.Body>
-                            <Button className='mx-2' variant='success'>로그인</Button>
+                            <NavLink className="home_login mx-2" to="/user/login">로그인</NavLink>
                             <Nav.Link className='mt-3 mb-3'>회원가입</Nav.Link>
                         </Card>
                         <Card>
