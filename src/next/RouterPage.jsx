@@ -6,6 +6,7 @@ import Local from './Local'
 import Music from './Music'
 import HomeBook from './HomeBook'
 import LoginPage from '../users/LoginPage'
+import InsertLogin from './InsertLogin'
 
 const RouterPage = () => {
     return (
@@ -16,6 +17,7 @@ const RouterPage = () => {
             <Route path='/music' element={<Music />} />
             <Route path='/book/list' element={<HomeBook />} />
             <Route path='/user/login' element={<LoginPage />} />
+            <Route path='/user/insert' element={<InsertLogin />} />
         </Routes>
     );
 }

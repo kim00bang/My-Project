@@ -100,9 +100,9 @@ const Home = () => {
                         <Card>
                             <Card.Body>로그인 하시면 또 다른 세상이 펼쳐집니다.</Card.Body>
                             <NavLink className="home_login mx-2" to="/user/login">로그인</NavLink>
-                            <Nav.Link className='mt-3 mb-3'>회원가입</Nav.Link>
+                            <NavLink className='mt-3 mb-3' to="/user/insert">회원가입</NavLink>
                         </Card>
-                        <Card>
+                        <Card className='mt-2'>
                             <Card.Header>날씨</Card.Header>
                             <Card.Body></Card.Body>
                         </Card>
@@ -114,13 +114,9 @@ const Home = () => {
                     <Col>
                         <Card>
                             <Card.Header>Book</Card.Header>
-                            <Row className='mt-2'>
-                                <Col>
-                                    <Card>
-                                        <HomeBook/>
-                                    </Card>
-                                </Col>
-                            </Row>
+                            <Card>
+                                <HomeBook />
+                            </Card>
                         </Card>
                     </Col>
                     <Col>
@@ -128,7 +124,7 @@ const Home = () => {
                             <Row>
                                 <Col>
                                     <Card>
-                                        <Card.Header>지도</Card.Header>
+                                        <Card.Header>노래</Card.Header>
                                     </Card>
                                 </Col>
                             </Row>
