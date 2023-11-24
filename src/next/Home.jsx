@@ -33,7 +33,7 @@ const Home = () => {
                             <Card.Body>
                                 <Card border='white'>
                                     <Row>
-                                        <Col>
+                                        <Col className='mb-2'>
                                             <Card>
                                                 <Card.Header><a className='black' href='https://newjeans.kr/'>NewJeans</a></Card.Header>
                                                 <Card.Img onClick={() => setBox({ show: true })} src="/img/NewJeans.jpg" width={155} height={155} />
@@ -104,7 +104,7 @@ const Home = () => {
                         </Card>
                         <Card className='mt-2'>
                             <Card.Header>날씨</Card.Header>
-                            <Card.Body></Card.Body>
+                            <Card.Img src='/img/weather.png' width="50%"></Card.Img>
                         </Card>
                     </Col>
                 </Row>
@@ -125,6 +125,85 @@ const Home = () => {
                                 <Col>
                                     <Card>
                                         <Card.Header>노래</Card.Header>
+                                            <Row className='mb-2'>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/see.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>여행: 플리(playlist) OST Part 2</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/gm.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>방황하는 젊음</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/happy.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>그댄 행복에 살텐데 (2022)</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/rewake.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>[THE 시즌즈 VolⅡ. 6] 악뮤의 오날오밤 ReːWake x 최유리</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                            </Row>
+                                            <Row className='mb-2'>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/ost3.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>남남 OST Part 3</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/gim.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>굄</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/why.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>여운</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/ost2.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>서른, 아홉 OST Part 3</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                            </Row>
+                                            <Row className='mb-2'>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/ep.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>여정 에필로그</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/go.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>여정</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/ost1.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>갯마을 차차차 OST Part 4</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                                <Col>
+                                                    <Card>
+                                                        <Card.Img src='/album/text.jpg' width="50%"></Card.Img>
+                                                        <Card.Footer className='ellipsis'>답장</Card.Footer>
+                                                    </Card>
+                                                </Col>
+                                            </Row>
+                                            
                                     </Card>
                                 </Col>
                             </Row>

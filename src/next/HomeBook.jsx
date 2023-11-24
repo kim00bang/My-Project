@@ -10,7 +10,7 @@ const HomeBook = () => {
     const search = new URLSearchParams(location.search);
 
     const getBooks = async () => {
-        const url = `https://dapi.kakao.com/v3/search/book?target=title&query=${query}&size=15`;
+        const url = `https://dapi.kakao.com/v3/search/book?target=title&query=${query}&size=20`;
         const config = {
             headers: {
                 "Authorization": "KakaoAK 101f7a17f872e02b2ae8da8a87b16c1c"
